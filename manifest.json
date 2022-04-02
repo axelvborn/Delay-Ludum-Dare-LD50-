@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Delay Ludum Dare",
+    "version": "1.0",
+    "description": "Delay the Ludum Dare Countdowns.",
+    "icons": {
+        "48": "icons/border-48.png",
+        "96": "icons/border-96.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.ldjam.com/*"
+            ],
+            "js": [
+                "delayLD.js"
+            ]
+        }
+    ]
+}
