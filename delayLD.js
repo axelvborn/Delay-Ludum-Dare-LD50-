@@ -8,6 +8,8 @@ function CreateButtons() {
 
         let button = document.createElement("button");
         button.innerHTML = "Delay";
+        button.style.fontSize = "16px";
+        button.style.margin = "5px";
 
         button.onclick = function () {
 
