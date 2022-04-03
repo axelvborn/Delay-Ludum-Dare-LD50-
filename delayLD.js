@@ -23,7 +23,6 @@ function CreateButtons() {
             }
         };
         countdownList[i].appendChild(button);
-        button.click(); // Force timers to get blocked
     }
     DecreaseTimers();
     setInterval(DecreaseTimers, 1000);
