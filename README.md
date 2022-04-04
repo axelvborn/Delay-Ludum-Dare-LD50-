@@ -17,11 +17,13 @@ Live the Real Ludum Dare Extra experience.
 **Features :**  
 - Delay the Compo countdown
 - Delay the Jam countdown
+- Delay the Submission Hour countdown
 - Delay the Play+Rate countdown
 - Delay the next LD countdown
 
 **Installation Guide :**  
-Extension was done & tested for Firefox mainly. It should work with other browsers as long as your browser allows loading extensions from your disk (Chrome doesn't afaik except on Linux).
+Extension was done & tested for Firefox mainly. It should work with other browsers as long as your browser allows loading extensions from your disk (Chrome doesn't afaik except on Linux).  
+Alternatively, you can simply use any browser's console (in the dev/debug tools, which you can open with the F12 hotkey) while on the LD website and copy paste the whole delayLD.js script in it to test the code.
 
 You can install it on Firefox as a temporary extension : https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#installing
 - Go in the debugging options of the browser, click on the "This Firefox" link (or here's the direct link : about:debugging#/runtime/this-firefox).
